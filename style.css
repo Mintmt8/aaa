@@ -1,0 +1,31 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url();
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timebox{
+    display: flex;
+    gap: 90px;
+}
+
+.time{
+    text-align: center;
+}
+
+.time h2{
+    font-size: 5rem;
+    font-weight: 50;
+}
