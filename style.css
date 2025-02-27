@@ -7,7 +7,7 @@
 
 .hero{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url();
+    background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(10532917.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -28,4 +28,24 @@
 .time h2{
     font-size: 5rem;
     font-weight: 50;
+}
+
+#pato {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#pato img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#pato:hover {
+    opacity: 1;
 }

@@ -31,3 +31,19 @@ function timer() {
 
 timer(); // Chamar a função imediatamente para evitar atraso de 1s
 setInterval(timer, 1000);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const pato = document.getElementById("pato");
+
+    document.body.addEventListener("mousemove", function (event) {
+        if (event.clientX < 100 && event.clientY > window.innerHeight - 100) {
+            pato.style.opacity = "1";
+        } else {
+            pato.style.opacity = "0";
+        }
+    });
+
+    pato.addEventListener("click", function () {
+        window.location.href = "https://i.imgur.com/0a54Mwi.png";
+    });
+});
