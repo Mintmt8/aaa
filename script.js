@@ -47,3 +47,10 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "https://i.imgur.com/0a54Mwi.png";
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const redirectS = document.getElementById("redirect-s");
+
+    redirectS.addEventListener("click", function () {
+        window.location.href = "https://pt.wikipedia.org/wiki/Gato_de_Schrödinger";
+    });
+});

@@ -49,3 +49,12 @@
 #pato:hover {
     opacity: 1;
 }
+#redirect-s {
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+#redirect-s:hover {
+    text-decoration: underline;
+}
